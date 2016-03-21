@@ -8,7 +8,6 @@ This is a simple program that pulls HackerNews iOS articles from an API and disp
 This project uses CocoaPods to manage libraries. To install the Libraries you can run `pod install` from any terminal that has CocoaPods. Since the project uses CocoaPods you must open the “ReignProject.xcworkspace” file (and not the .xcodeproj file). This project requires iOS 8.0 or above.
 
 ## Libraries
-This project uses the following libraries
 1. [Realm](https://realm.io) - Realm is a mobile database replacement for Core Data & SQLite. It makes storing local data very simple.
 2. [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper) - ObjectMapper makes mapping JSON data coming from an API into Realm Objects easy.
 3. [Alamofire](https://github.com/Alamofire/Alamofire) - Elegant HTTP Networking in Swift. This is the libary used to call the HackerNews API.
