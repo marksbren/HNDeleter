@@ -1,0 +1,6 @@
+framework module Pods_ReignProject {
+  umbrella header "Pods-ReignProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

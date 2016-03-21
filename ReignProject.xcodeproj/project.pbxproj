@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0715BD441C9FBC370012657F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715BD431C9FBC370012657F /* Reachability.swift */; };
+		0715BD461C9FBCC60012657F /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715BD451C9FBCC60012657F /* ConnectivityManager.swift */; };
+		0715BD481C9FBD1A0012657F /* ConnectivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715BD471C9FBD1A0012657F /* ConnectivityView.swift */; };
 		073E424A1C9C7900003C7771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073E42491C9C7900003C7771 /* AppDelegate.swift */; };
 		073E424C1C9C7900003C7771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073E424B1C9C7900003C7771 /* ViewController.swift */; };
 		073E424F1C9C7900003C7771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073E424D1C9C7900003C7771 /* Main.storyboard */; };
@@ -14,6 +17,28 @@
 		073E42541C9C7900003C7771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073E42521C9C7900003C7771 /* LaunchScreen.storyboard */; };
 		073E425F1C9C7901003C7771 /* ReignProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073E425E1C9C7901003C7771 /* ReignProjectTests.swift */; };
 		073E426A1C9C7901003C7771 /* ReignProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073E42691C9C7901003C7771 /* ReignProjectUITests.swift */; };
+		07AD26E91C9C7F560048C312 /* HomeFeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD26E81C9C7F560048C312 /* HomeFeedManager.swift */; };
+		07AD26EB1C9C8B390048C312 /* HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD26EA1C9C8B390048C312 /* HTTPManager.swift */; };
+		07AD26ED1C9C98720048C312 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD26EC1C9C98720048C312 /* Item.swift */; };
+		07AD26EF1C9C9B810048C312 /* RealmDateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD26EE1C9C9B810048C312 /* RealmDateTransform.swift */; };
+		07AD26F11C9CAF2E0048C312 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD26F01C9CAF2E0048C312 /* RealmManager.swift */; };
+		07AD26F31C9CC7C00048C312 /* ItemWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD26F21C9CC7C00048C312 /* ItemWebViewController.swift */; };
+		07AD26F51C9CD1020048C312 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD26F41C9CD1020048C312 /* ItemTableViewCell.swift */; };
+		07AD26F71C9CD2170048C312 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD26F61C9CD2170048C312 /* Constants.swift */; };
+		07AD26F91C9CD6610048C312 /* DateHelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD26F81C9CD6610048C312 /* DateHelperFunctions.swift */; };
+		07F58CB41C9F1E6200550F1E /* icnNavClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F58CB11C9F1E6100550F1E /* icnNavClose.png */; };
+		07F58CB51C9F1E6200550F1E /* icnNavClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F58CB21C9F1E6100550F1E /* icnNavClose@2x.png */; };
+		07F58CB61C9F1E6200550F1E /* icnNavClose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F58CB31C9F1E6100550F1E /* icnNavClose@3x.png */; };
+		07F58CBE1C9F2B9D00550F1E /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F58CBB1C9F2B9D00550F1E /* next.png */; };
+		07F58CBF1C9F2B9D00550F1E /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F58CBC1C9F2B9D00550F1E /* previous.png */; };
+		07F58CC01C9F2B9D00550F1E /* upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F58CBD1C9F2B9D00550F1E /* upload.png */; };
+		07F58CC41C9F2BC500550F1E /* next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F58CC11C9F2BC500550F1E /* next@2x.png */; };
+		07F58CC51C9F2BC500550F1E /* previous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F58CC21C9F2BC500550F1E /* previous@2x.png */; };
+		07F58CC61C9F2BC500550F1E /* upload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F58CC31C9F2BC500550F1E /* upload@2x.png */; };
+		07F58CCA1C9F2BE700550F1E /* next@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F58CC71C9F2BE700550F1E /* next@3x.png */; };
+		07F58CCB1C9F2BE700550F1E /* previous@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F58CC81C9F2BE700550F1E /* previous@3x.png */; };
+		07F58CCC1C9F2BE700550F1E /* upload@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F58CC91C9F2BE700550F1E /* upload@3x.png */; };
+		3AAAD09DF912C51C675A0B10 /* Pods_ReignProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0920B19F23F3D84707501418 /* Pods_ReignProject.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0715BD431C9FBC370012657F /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		0715BD451C9FBCC60012657F /* ConnectivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityManager.swift; sourceTree = "<group>"; };
+		0715BD471C9FBD1A0012657F /* ConnectivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityView.swift; sourceTree = "<group>"; };
 		073E42461C9C7900003C7771 /* ReignProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReignProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		073E42491C9C7900003C7771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		073E424B1C9C7900003C7771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +75,30 @@
 		073E42651C9C7901003C7771 /* ReignProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReignProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		073E42691C9C7901003C7771 /* ReignProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReignProjectUITests.swift; sourceTree = "<group>"; };
 		073E426B1C9C7901003C7771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07AD26E81C9C7F560048C312 /* HomeFeedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeedManager.swift; sourceTree = "<group>"; };
+		07AD26EA1C9C8B390048C312 /* HTTPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPManager.swift; sourceTree = "<group>"; };
+		07AD26EC1C9C98720048C312 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		07AD26EE1C9C9B810048C312 /* RealmDateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDateTransform.swift; sourceTree = "<group>"; };
+		07AD26F01C9CAF2E0048C312 /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		07AD26F21C9CC7C00048C312 /* ItemWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemWebViewController.swift; sourceTree = "<group>"; };
+		07AD26F41C9CD1020048C312 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		07AD26F61C9CD2170048C312 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		07AD26F81C9CD6610048C312 /* DateHelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelperFunctions.swift; sourceTree = "<group>"; };
+		07F58CB11C9F1E6100550F1E /* icnNavClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icnNavClose.png; sourceTree = "<group>"; };
+		07F58CB21C9F1E6100550F1E /* icnNavClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icnNavClose@2x.png"; sourceTree = "<group>"; };
+		07F58CB31C9F1E6100550F1E /* icnNavClose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icnNavClose@3x.png"; sourceTree = "<group>"; };
+		07F58CBB1C9F2B9D00550F1E /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		07F58CBC1C9F2B9D00550F1E /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		07F58CBD1C9F2B9D00550F1E /* upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upload.png; sourceTree = "<group>"; };
+		07F58CC11C9F2BC500550F1E /* next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next@2x.png"; sourceTree = "<group>"; };
+		07F58CC21C9F2BC500550F1E /* previous@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "previous@2x.png"; sourceTree = "<group>"; };
+		07F58CC31C9F2BC500550F1E /* upload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload@2x.png"; sourceTree = "<group>"; };
+		07F58CC71C9F2BE700550F1E /* next@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next@3x.png"; sourceTree = "<group>"; };
+		07F58CC81C9F2BE700550F1E /* previous@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "previous@3x.png"; sourceTree = "<group>"; };
+		07F58CC91C9F2BE700550F1E /* upload@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload@3x.png"; sourceTree = "<group>"; };
+		0920B19F23F3D84707501418 /* Pods_ReignProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReignProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD4AA3A92E529F2A9D6181B /* Pods-ReignProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReignProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReignProject/Pods-ReignProject.release.xcconfig"; sourceTree = "<group>"; };
+		C17BE1750A18979629AFF6F1 /* Pods-ReignProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReignProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReignProject/Pods-ReignProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AAAD09DF912C51C675A0B10 /* Pods_ReignProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +127,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0715BD421C9F9EFD0012657F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				07F58CC71C9F2BE700550F1E /* next@3x.png */,
+				07F58CC81C9F2BE700550F1E /* previous@3x.png */,
+				07F58CC91C9F2BE700550F1E /* upload@3x.png */,
+				07F58CC11C9F2BC500550F1E /* next@2x.png */,
+				07F58CC21C9F2BC500550F1E /* previous@2x.png */,
+				07F58CC31C9F2BC500550F1E /* upload@2x.png */,
+				07F58CBB1C9F2B9D00550F1E /* next.png */,
+				07F58CBC1C9F2B9D00550F1E /* previous.png */,
+				07F58CBD1C9F2B9D00550F1E /* upload.png */,
+				073E42551C9C7901003C7771 /* Info.plist */,
+				07F58CB11C9F1E6100550F1E /* icnNavClose.png */,
+				07F58CB21C9F1E6100550F1E /* icnNavClose@2x.png */,
+				07F58CB31C9F1E6100550F1E /* icnNavClose@3x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		073E423D1C9C7900003C7771 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +154,8 @@
 				073E425D1C9C7901003C7771 /* ReignProjectTests */,
 				073E42681C9C7901003C7771 /* ReignProjectUITests */,
 				073E42471C9C7900003C7771 /* Products */,
+				9211690570B1F013F8E16F8A /* Pods */,
+				5F3E44EE067BE61F71E8C36B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +172,24 @@
 		073E42481C9C7900003C7771 /* ReignProject */ = {
 			isa = PBXGroup;
 			children = (
+				07AD26EE1C9C9B810048C312 /* RealmDateTransform.swift */,
+				0715BD431C9FBC370012657F /* Reachability.swift */,
+				0715BD451C9FBCC60012657F /* ConnectivityManager.swift */,
+				0715BD471C9FBD1A0012657F /* ConnectivityView.swift */,
 				073E42491C9C7900003C7771 /* AppDelegate.swift */,
 				073E424B1C9C7900003C7771 /* ViewController.swift */,
+				07AD26F81C9CD6610048C312 /* DateHelperFunctions.swift */,
+				07AD26F21C9CC7C00048C312 /* ItemWebViewController.swift */,
+				07AD26F41C9CD1020048C312 /* ItemTableViewCell.swift */,
+				07AD26F61C9CD2170048C312 /* Constants.swift */,
+				07AD26E81C9C7F560048C312 /* HomeFeedManager.swift */,
+				07AD26EA1C9C8B390048C312 /* HTTPManager.swift */,
+				07AD26F01C9CAF2E0048C312 /* RealmManager.swift */,
+				07AD26EC1C9C98720048C312 /* Item.swift */,
 				073E424D1C9C7900003C7771 /* Main.storyboard */,
 				073E42501C9C7900003C7771 /* Assets.xcassets */,
 				073E42521C9C7900003C7771 /* LaunchScreen.storyboard */,
-				073E42551C9C7901003C7771 /* Info.plist */,
+				0715BD421C9F9EFD0012657F /* Images */,
 			);
 			path = ReignProject;
 			sourceTree = "<group>";
@@ -125,6 +212,23 @@
 			path = ReignProjectUITests;
 			sourceTree = "<group>";
 		};
+		5F3E44EE067BE61F71E8C36B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0920B19F23F3D84707501418 /* Pods_ReignProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9211690570B1F013F8E16F8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C17BE1750A18979629AFF6F1 /* Pods-ReignProject.debug.xcconfig */,
+				8AD4AA3A92E529F2A9D6181B /* Pods-ReignProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 073E426E1C9C7901003C7771 /* Build configuration list for PBXNativeTarget "ReignProject" */;
 			buildPhases = (
+				BCFBB107552A65BB9E243F26 /* Check Pods Manifest.lock */,
 				073E42421C9C7900003C7771 /* Sources */,
 				073E42431C9C7900003C7771 /* Frameworks */,
 				073E42441C9C7900003C7771 /* Resources */,
+				8CB21B6FEF13CE67634B701C /* Embed Pods Frameworks */,
+				E3BBEF2658076DB701AB2761 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +336,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F58CBE1C9F2B9D00550F1E /* next.png in Resources */,
+				07F58CB51C9F1E6200550F1E /* icnNavClose@2x.png in Resources */,
+				07F58CCA1C9F2BE700550F1E /* next@3x.png in Resources */,
+				07F58CB61C9F1E6200550F1E /* icnNavClose@3x.png in Resources */,
+				07F58CC41C9F2BC500550F1E /* next@2x.png in Resources */,
 				073E42541C9C7900003C7771 /* LaunchScreen.storyboard in Resources */,
+				07F58CC51C9F2BC500550F1E /* previous@2x.png in Resources */,
+				07F58CBF1C9F2B9D00550F1E /* previous.png in Resources */,
+				07F58CCC1C9F2BE700550F1E /* upload@3x.png in Resources */,
+				07F58CCB1C9F2BE700550F1E /* previous@3x.png in Resources */,
 				073E42511C9C7900003C7771 /* Assets.xcassets in Resources */,
+				07F58CC01C9F2B9D00550F1E /* upload.png in Resources */,
 				073E424F1C9C7900003C7771 /* Main.storyboard in Resources */,
+				07F58CB41C9F1E6200550F1E /* icnNavClose.png in Resources */,
+				07F58CC61C9F2BC500550F1E /* upload@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +370,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8CB21B6FEF13CE67634B701C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReignProject/Pods-ReignProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCFBB107552A65BB9E243F26 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3BBEF2658076DB701AB2761 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReignProject/Pods-ReignProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		073E42421C9C7900003C7771 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07AD26ED1C9C98720048C312 /* Item.swift in Sources */,
+				07AD26F51C9CD1020048C312 /* ItemTableViewCell.swift in Sources */,
+				0715BD441C9FBC370012657F /* Reachability.swift in Sources */,
+				07AD26E91C9C7F560048C312 /* HomeFeedManager.swift in Sources */,
+				07AD26F31C9CC7C00048C312 /* ItemWebViewController.swift in Sources */,
+				07AD26F91C9CD6610048C312 /* DateHelperFunctions.swift in Sources */,
+				0715BD461C9FBCC60012657F /* ConnectivityManager.swift in Sources */,
+				07AD26EF1C9C9B810048C312 /* RealmDateTransform.swift in Sources */,
+				07AD26F71C9CD2170048C312 /* Constants.swift in Sources */,
+				0715BD481C9FBD1A0012657F /* ConnectivityView.swift in Sources */,
 				073E424C1C9C7900003C7771 /* ViewController.swift in Sources */,
 				073E424A1C9C7900003C7771 /* AppDelegate.swift in Sources */,
+				07AD26F11C9CAF2E0048C312 /* RealmManager.swift in Sources */,
+				07AD26EB1C9C8B390048C312 /* HTTPManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +576,7 @@
 		};
 		073E426F1C9C7901003C7771 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17BE1750A18979629AFF6F1 /* Pods-ReignProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReignProject/Info.plist;
@@ -408,6 +588,7 @@
 		};
 		073E42701C9C7901003C7771 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD4AA3A92E529F2A9D6181B /* Pods-ReignProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReignProject/Info.plist;
@@ -484,6 +665,7 @@
 				073E42701C9C7901003C7771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		073E42711C9C7901003C7771 /* Build configuration list for PBXNativeTarget "ReignProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +674,7 @@
 				073E42731C9C7901003C7771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		073E42741C9C7901003C7771 /* Build configuration list for PBXNativeTarget "ReignProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +683,7 @@
 				073E42761C9C7901003C7771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
